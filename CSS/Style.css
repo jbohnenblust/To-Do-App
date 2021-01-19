@@ -1,0 +1,64 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    background-color: beige;
+    color: rgb(212, 68, 68);
+    text-align: center;
+    font-weight: 400;
+    padding: 10px 0;
+    box-shadow: 0px 0px 6px rgb(22, 22, 22);
+    margin-bottom: 10px;
+}
+
+.form {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 405px;
+    padding: 20px 30px;
+    border: 1px solid #8a8a8b;
+    border-radius: 6px;
+    background: white;
+    box-shadow: 0px 0px 6px rgb(22, 22, 22);
+}
+
+.form-input {
+    padding: 5px;
+    font-size: 25px;
+    color: #666
+}
+
+.form button{
+    margin-top: -5px;
+}
+
+section {
+    margin-top: 45px;
+}
+
+section h5{
+    color: #555;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+section .item {
+    font-size: 18px;
+    color: #333;
+    border: 1px solid #8a8a8b;
+    border-radius: 6px;
+    background: white;
+    box-shadow: 0px 0px 2px rgb(22, 22, 22);
+    margin-bottom: 8px;
+    padding: 15px 25px;
+}
+
+section .item:hover{
+    border-color: rgb(15, 87, 116);
+    border-left-width: 5px;
+    padding-left: 15px;
+}
